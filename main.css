@@ -8,9 +8,17 @@
     /* margin: 50px 0 0 0; */
     /* justify-content: center; */
 }
+
 h1 {
     text-align: center;
 }
+
+body {
+    background: #2BC0E4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
 input {
     /* margin-left: 20px; */
     /* margin: 10px 60px; */
@@ -21,8 +29,11 @@ input {
     margin-left: auto;
     width: 100%;
     box-shadow: 0px;
-    --box-shadow-color: goldenrod;
+    /* --box-shadow-color: goldenrod;
+     */
+    vertical-align: center;
 }
+
 .completed {
     color: gray;
     text-decoration: line-through;
